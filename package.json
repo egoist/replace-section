@@ -23,7 +23,6 @@
     ""
   ],
   "devDependencies": {
-    "ava": "^0.16.0",
     "buble": "^0.14.2",
     "eslint": "latest",
     "eslint-config-egoist": "latest",
