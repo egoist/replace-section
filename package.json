@@ -1,0 +1,38 @@
+{
+  "name": "replace-section",
+  "version": "0.0.0",
+  "description": "Replace a section in string.",
+  "license": "MIT",
+  "repository": "egoist/replace-section",
+  "author": {
+    "name": "EGOIST",
+    "email": "0x142857@gmail.com",
+    "url": "github.com/egoist"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "jest && eslint src/*.js && npm run build",
+    "build": "buble src/index.js -o index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "buble": "^0.14.2",
+    "eslint": "latest",
+    "eslint-config-egoist": "latest",
+    "jest-cli": "^17.0.1"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "eslintConfig": {
+    "extends": "egoist/esnext"
+  }
+}
