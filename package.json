@@ -1,6 +1,6 @@
 {
   "name": "replace-section",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Replace a section in string.",
   "license": "MIT",
   "repository": "egoist/replace-section",
