@@ -4,6 +4,6 @@ export default function ({
   endWith,
   replaceWith
 } = {}) {
-  const RE = new RegExp(`${startWith}([\s\S]*?)${endWith}`, 'gm')
+  const RE = new RegExp(`${startWith}([\\s\\S]*?)${endWith}`, 'gm')
   return input.replace(RE, replaceWith)
 }
