@@ -1,4 +1,4 @@
-const replaceSection = require('../src')
+import replaceSection from '../src'
 
 test('main', () => {
   const result = replaceSection({
