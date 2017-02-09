@@ -4,6 +4,6 @@ module.exports = function ({
   endWith,
   replaceWith
 } = {}) {
-  const RE = new RegExp(`${startWith}[^]*${endWith}`, 'g')
+  const RE = new RegExp(`${startWith}([\s\S]*?)${endWith}`, 'gm')
   return input.replace(RE, replaceWith)
 }
